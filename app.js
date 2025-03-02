@@ -29,9 +29,3 @@ window.addEventListener('beforeinstallprompt', (event) => {
 window.addEventListener('appinstalled', (event) => {
     console.log('PWA was installed');
 });
-
-    })
-    .catch((error) => {
-        console.log('Service Worker registration failed:', error);
-    });
-}
